@@ -15,8 +15,8 @@ describe Calculator do
 
   describe "#subtract" do
     it "returns the difference of two numbers" do
-      calculator.Calculator.new
-      expect(calculator.subtract(8, 3)).to eql(11)
+      calculator = Calculator.new
+      expect(calculator.subtract(8, 3)).to eql(5)
     end
   end
 end

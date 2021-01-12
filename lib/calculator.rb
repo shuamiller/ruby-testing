@@ -8,4 +8,8 @@ class Calculator
       first_sum + second_sum
     end
   end
+
+  def subtract(a,b)
+    a - b
+  end
 end
